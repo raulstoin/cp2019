@@ -1,0 +1,25 @@
+Input processing
+=============================
+
+### Task 1
+Given a text on multiple lines at standard input, print all words that can be found in the text. A word is considered a sequence of printable character different than any whitespace. If whitespaces are encountered, compact all adiacent ones and print a space (' ') character instead, except newline (which shall be kept as it is). Skip all digits and non-printable characters.
+
+The program should stop when the entire text has been processed.
+
+| Input                                               | Output  |
+|---                                                  |---      |
+|123abc23a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;567ab   | abca ab |
+|asdg456&nbsp;&nbsp;&nbsp;asd356                      | asdg asd |
+|35!79ah&nbsp;&nbsp;                                  | !ah    |
+
+### Task 2
+Given a text on multiple lines at standard input, print all words that start with an uppercase letter or a symbol. A word is considered a sequence of printable character different than any whitespace. If whitespaces are encountered, compact all adiacent ones and print a space (' ') character instead, except newline (which shall be kept as it is). Skip all digits and non-printable characters.
+
+The program should stop when the entire text has been processed or an invalid number was detected (e.g. 01238, 0xG, 1A etc).
+
+| Input                                               | Output  |
+|---                                                  |---      |
+|123Abc23a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;567ab   | Abc  ab |
+|asDg456&nbsp;&nbsp;&nbsp;Asd356                      | Asd |
+|35!79ah&nbsp;&nbsp;                                  | !ah    |
+
