@@ -1,7 +1,7 @@
 # Arrays, strings, pointers
 
 ### Task 1 - String compare
-Implement your own versions of strcmp and strncmp (with the exact same functionality).
+Implement your own versions of **strcmp** and **strncmp** (with the exact same functionality).
 
 ### Task 2 - Definitions in strings
 Write a function that takes a string, prints all definitions of the form ***name*=*value*** from the string, one per line, and returns their number. The ***name*** must be an identifier (like in C: starts with letter or underscore, may contain letters, underscore and digits). The ***value*** may contain arbitrary non-whitespace. Definitions must be separated by whitespace from other parts of the string.
